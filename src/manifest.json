@@ -1,0 +1,13 @@
+{
+  "name": "play",
+  "version": "1.0.0",
+  "description": "The PLAY button for douban movie.",
+  "manifest_version": 2,
+  "content_scripts": [
+    {
+      "matches": ["https://movie.douban.com/subject/*"],
+      "js": ["content.js"],
+      "run_at": "document_end"  
+    }
+  ]
+}
