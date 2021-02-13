@@ -3,7 +3,7 @@ const movieId = window.location.pathname.split('/')[2];
 const douban = document.createElement('a');
 douban.innerHTML = '&#9658;';
 douban.setAttribute('style', 'margin-left: 10px;');
-douban.href = 'https://hugelive.com/play/' + movieId;
+douban.href = 'https://xinghe.tv/play/' + movieId;
 douban.target = '_blank';
 douban.rel = 'noreferrer noopener';
 

@@ -13,8 +13,8 @@
       "run_at": "document_end"  
     },
     {
-      "matches": ["https://hugelive.com/play/*"],
-      "js": ["huge.js"],
+      "matches": ["https://xinghe.tv/play/*"],
+      "js": ["watch.js"],
       "run_at": "document_end"
     }
   ]
