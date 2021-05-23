@@ -1,3 +1,3 @@
 zip:
-	rm play.zip
-	zip play.zip src/*
+	rm douban.zip
+	zip douban.zip src/*
