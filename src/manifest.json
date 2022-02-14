@@ -1,6 +1,6 @@
 {
   "name": "douban",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "The extension for douban movie.",
   "manifest_version": 2,
   "icons": {
@@ -11,11 +11,6 @@
       "matches": ["https://movie.douban.com/subject/*"],
       "js": ["douban.js"],
       "run_at": "document_end"  
-    },
-    {
-      "matches": ["https://xinghe.tv/play/*"],
-      "js": ["watch.js"],
-      "run_at": "document_end"
     }
   ]
 }

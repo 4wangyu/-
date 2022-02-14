@@ -1,10 +1,11 @@
 function addPlayButton() {
-  const movieId = window.location.pathname.split('/')[2];
+  const movieName = window.document.title.slice(0, -5);
 
   const douban = document.createElement('a');
   douban.innerHTML = '&#9658;';
   douban.setAttribute('style', 'margin-left: 10px;');
-  douban.href = 'https://xinghe.tv/play/' + movieId;
+  douban.href =
+    'https://www.olevod.com/index.php/vod/search.html?wd=' + movieName;
   douban.target = '_blank';
   douban.rel = 'noreferrer noopener';
 
