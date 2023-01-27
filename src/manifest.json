@@ -1,6 +1,6 @@
 {
   "name": "douban",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "The extension for douban movie.",
   "manifest_version": 2,
   "icons": {

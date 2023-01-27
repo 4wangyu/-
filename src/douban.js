@@ -4,8 +4,7 @@ function addPlayButton() {
   const douban = document.createElement('a');
   douban.innerHTML = '&#9658;';
   douban.setAttribute('style', 'margin-left: 10px;');
-  douban.href =
-    'https://www.olevod.com/index.php/vod/search.html?wd=' + movieName;
+  douban.href = 'https://www.iyf.tv/search/' + movieName;
   douban.target = '_blank';
   douban.rel = 'noreferrer noopener';
 
